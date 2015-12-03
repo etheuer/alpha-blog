@@ -1,0 +1,48 @@
+<style type="text/css">
+  #header 
+  {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  #column-1
+  {
+    background-color: yellow;
+    float: left;
+    width: 50%;
+  }
+  
+  #column-2
+  {
+    float: left;
+    width: 50%;
+  }
+  
+  #main-image
+  {
+    text-align: center;
+    display: block;
+  }
+  
+</style>
+<head>
+  <title>My Ugly Website</title>
+</head>
+<body>
+  <div id='header'>
+    <h1>Welcome to my Ugly Website</h1>  
+  </div>
+  <div id='main-image'>
+    <%= link_to image_tag('porsche.jpg'), 'http://www.folha.com.br' %>
+  </div>
+  <div id='column-1'>
+    <p>jjsandajssa dad sdjasdha dhjasdhajsd hjas ds aasdh hjads ashj djh asdj ajd ahsj dshja sdh sadhsaj djhasb dhjasdbabdjknadjabdnsjd. KJSDF SJFKSJFKJSDKLFJSKLDFJ SDLDSSFLKFLDSFSDF DF SDFS FDSJ FKLSD JFKL DFSK JFKLJSDF KLDSJFLK SDJFKSDKLFJSKLDJFLKSDFSLD JDFSKLDJFKLSJDFKJLSF</p>
+  </div>
+  <div id='column-2'>
+    <p>jjsandajssa dad sdjasdha dhjasdhajsd hjas ds aasdh hjads ashj djh asdj ajd ahsj dshja sdh sadhsaj djhasb dhjasdbabdjknadjabdnsjd. KJSDF SJFKSJFKJSDKLFJSKLDFJ SDLDSSFLKFLDSFSDF DF SDFS FDSJ FKLSD JFKL DFSK JFKLJSDF KLDSJFLK SDJFKSDKLFJSKLDJFLKSDFSLD JDFSKLDJFKLSJDFKJLSF</p>
+  </div>  
+  <%= link_to 'Home', pages_home_path%>
+  <%= link_to 'About', pages_about_path%>
+  
+</body>
