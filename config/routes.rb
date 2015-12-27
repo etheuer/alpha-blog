@@ -9,6 +9,8 @@ root  'pages#home'
 get   'about',            to: 'pages#about'
 get   'pages/lecture45',  to: 'pages#lecture45'
 
+resources :articles
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
